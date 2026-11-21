@@ -1,0 +1,78 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "source": "official pretrained BF16 safetensors",
+  "quantization": "symmetric per-output-row INT4 scale float32",
+  "input_token_ids": [
+    100,
+    200
+  ],
+  "size": 7524480,
+  "sha256": "5ce96affd8b12ab092fb1d6dd4e6557dfd30e317b0477684067fd16e31224a28",
+  "offsets": {
+    "embedding0": 128,
+    "embedding1": 3712,
+    "norm1": 7296,
+    "norm2": 10880,
+    "bias_q_proj": 14464,
+    "bias_k_proj": 18048,
+    "bias_v_proj": 18560,
+    "matrix_q_proj": 19072,
+    "matrix_k_proj": 424064,
+    "matrix_v_proj": 481920,
+    "matrix_o_proj": 539776,
+    "matrix_gate_proj": 944768,
+    "matrix_up_proj": 3143296,
+    "matrix_down_proj": 5341824
+  },
+  "matrices": [
+    {
+      "name": "q_proj",
+      "rows": 896,
+      "cols": 896,
+      "offset": 19072,
+      "row_bytes": 452
+    },
+    {
+      "name": "k_proj",
+      "rows": 128,
+      "cols": 896,
+      "offset": 424064,
+      "row_bytes": 452
+    },
+    {
+      "name": "v_proj",
+      "rows": 128,
+      "cols": 896,
+      "offset": 481920,
+      "row_bytes": 452
+    },
+    {
+      "name": "o_proj",
+      "rows": 896,
+      "cols": 896,
+      "offset": 539776,
+      "row_bytes": 452
+    },
+    {
+      "name": "gate_proj",
+      "rows": 4864,
+      "cols": 896,
+      "offset": 944768,
+      "row_bytes": 452
+    },
+    {
+      "name": "up_proj",
+      "rows": 4864,
+      "cols": 896,
+      "offset": 3143296,
+      "row_bytes": 452
+    },
+    {
+      "name": "down_proj",
+      "rows": 896,
+      "cols": 4864,
+      "offset": 5341824,
+      "row_bytes": 2436
+    }
+  ]
+}

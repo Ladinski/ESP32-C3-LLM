@@ -1,0 +1,30 @@
+[
+  {
+    "file": "main\\esp32_c3_llm.c",
+    "sha256": "3b71da40b4912e44044d86ac71072b182778645409e918e1bc83381bc6d26b7c"
+  },
+  {
+    "file": "phase85_paris_prompt.py",
+    "sha256": "abae2aed25b4b45fefa44bc52fd1e700726144453c8944e723c444b9ad179bbc"
+  },
+  {
+    "file": "phase85_paris_prompt_report.json",
+    "sha256": "ff08bf0b030caaa45635c64a2161e97a88b3f85933232d388123f7837b37a215"
+  },
+  {
+    "file": "phase73_instruct\\phase80_int8_images\\qwen25_instruct_w8_manifest.json",
+    "sha256": "d9a52f1365f9bb2358c3fcf6dd321e1fd3a4d60d6acb0118eaa1aae63cf1fd5f"
+  },
+  {
+    "file": "sdkconfig",
+    "sha256": "cbde3ec8374c33ac7e6ff6c2e0fa5ce09012271e858496208d12e277a51ff041"
+  },
+  {
+    "file": "CMakeLists.txt",
+    "sha256": "3da9b295f5492124f0343aad9b5cb222f6560a62f4e1dbbe9d27d2fd35a684c5"
+  },
+  {
+    "file": "main\\CMakeLists.txt",
+    "sha256": "a33a8a1ebd9de9e8b3daa010eeaec2636066667facdab8babfb3253348368415"
+  }
+]

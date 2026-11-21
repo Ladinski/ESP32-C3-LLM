@@ -1,0 +1,37 @@
+{
+  "prompt": "Capital of France:",
+  "prompt_token_ids": [
+    63593,
+    315,
+    9625,
+    25
+  ],
+  "generated_token": 12095,
+  "generated_piece": " Paris",
+  "full_text": "Capital of France: Paris",
+  "target_paris": true,
+  "head_score_difference": 7.647656250497903e-06,
+  "layer1_checks": [
+    {
+      "position": 0,
+      "failures": 0,
+      "max_abs": 2.86102294921875e-06
+    },
+    {
+      "position": 1,
+      "failures": 0,
+      "max_abs": 2.682209014892578e-06
+    },
+    {
+      "position": 2,
+      "failures": 0,
+      "max_abs": 7.3909759521484375e-06
+    },
+    {
+      "position": 3,
+      "failures": 0,
+      "max_abs": 4.291534423828125e-06
+    }
+  ],
+  "elapsed_seconds": 4165.5629999999655
+}

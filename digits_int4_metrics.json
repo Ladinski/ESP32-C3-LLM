@@ -1,0 +1,11 @@
+{
+  "dataset": "sklearn handwritten digits (8x8, ten classes)",
+  "architecture": "64 -> ReLU(64) -> 10",
+  "weight_format": "signed INT4 packed (biases signed int32)",
+  "test_samples": 450,
+  "float_test_accuracy": 0.9822222222222222,
+  "int4_test_accuracy": 0.9777777777777777,
+  "split_seed": 42,
+  "model_bytes": 2664,
+  "hidden_divisor": 100
+}

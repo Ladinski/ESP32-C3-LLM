@@ -1,0 +1,34 @@
+{
+  "train": {
+    "accuracy": 0.93103,
+    "correct": 81,
+    "characters": 87,
+    "cross_entropy": 0.12802
+  },
+  "heldout": {
+    "accuracy": 0.74286,
+    "correct": 26,
+    "characters": 35,
+    "cross_entropy": 1.4532
+  },
+  "train_examples": [
+    "hi esp32!\n",
+    "hello esp32!\n",
+    "esp32 is fast.\n",
+    "esp32 is small.\n",
+    "hello there!\n",
+    "hi there!\n",
+    "esp32 can learn.\n"
+  ],
+  "heldout_examples": [
+    "hi esp32.\n",
+    "hello esp32.\n",
+    "esp32 is real.\n"
+  ],
+  "sample": "hi there!\n\n!\n\n\n",
+  "model_bytes": 1792,
+  "hash": "007ab474",
+  "steps": 1200,
+  "seed": 20261113,
+  "warning": "small, structurally similar held-out dataset; not proof of general language ability"
+}

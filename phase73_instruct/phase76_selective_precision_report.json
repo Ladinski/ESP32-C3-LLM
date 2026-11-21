@@ -1,0 +1,60 @@
+{
+  "checkpoint": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt": "Hello",
+  "input_ids": [
+    9707
+  ],
+  "original_token": 271,
+  "previous_phase73_baseline_token": 52643,
+  "baseline_crosscheck": true,
+  "scenarios": [
+    {
+      "scenario": "baseline",
+      "fp32_head_token": 52643,
+      "int4_head_token": 52643,
+      "int4_head_margin": 0.4262046813964844,
+      "matches_original": false
+    },
+    {
+      "scenario": "l3_fp16",
+      "fp32_head_token": 54721,
+      "int4_head_token": 77741,
+      "int4_head_margin": 0.1660308837890625,
+      "matches_original": false
+    },
+    {
+      "scenario": "l22_fp16",
+      "fp32_head_token": 52643,
+      "int4_head_token": 52643,
+      "int4_head_margin": 0.18323230743408203,
+      "matches_original": false
+    },
+    {
+      "scenario": "both_fp16",
+      "fp32_head_token": 110,
+      "int4_head_token": 110,
+      "int4_head_margin": 3.5389223098754883,
+      "matches_original": false
+    },
+    {
+      "scenario": "both_int8",
+      "fp32_head_token": 110,
+      "int4_head_token": 110,
+      "int4_head_margin": 2.355048179626465,
+      "matches_original": false
+    },
+    {
+      "scenario": "late_fp16",
+      "fp32_head_token": 110,
+      "int4_head_token": 110,
+      "int4_head_margin": 3.323216438293457,
+      "matches_original": false
+    }
+  ],
+  "limitations": [
+    "One raw prompt token without Instruct chat template",
+    "PC-only mixed-precision simulation; ESP32 has no added INT8/FP16 kernels",
+    "Quantized transformer uses model-provided attention, norms, and embeddings",
+    "Must reproduce prior baseline before claiming improvements"
+  ]
+}

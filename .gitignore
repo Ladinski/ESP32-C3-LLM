@@ -1,0 +1,66 @@
+# ESP-IDF and CMake output
+/build/
+/build_*/
+/managed_components/
+sdkconfig.old
+sdkconfig.bak
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+*.elf
+*.map
+*.o
+*.obj
+*.a
+
+# Python environments and caches
+.venv/
+venv/
+.*-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local editors, credentials, and logs
+/.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+/paris_run.json
+
+# Exported weights, traces, and archives
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.npy
+*.npz
+*.int4
+*.fp16
+*.scale_f32
+*.zip
+/phase13_export/
+/phase73_instruct/phase80_int8_images/
+
+# Local experiment overlays and backup copies
+/phase*_temp/
+/phase*_install/
+/phase*_fix*/
+/phase*_ramfix/
+/phase*_work/
+/phase85_reference/
+/phase13_fixed/
+*_backup*
+/phase39_firmware_pre_phase41.c
+/phase39_cmake_pre_phase41.txt

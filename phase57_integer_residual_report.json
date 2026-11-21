@@ -1,0 +1,19 @@
+{
+  "group": 6,
+  "baseline": {
+    "max_absolute_error": 0.0101318359375,
+    "mean_absolute_error": 0.0019277555899667018,
+    "mixed_tolerance_failures": 482,
+    "max_normalized_error": 0.009413421154022217
+  },
+  "candidate": {
+    "max_absolute_error": 0.0101318359375,
+    "mean_absolute_error": 9.998487485063379e-05,
+    "mixed_tolerance_failures": 0,
+    "max_normalized_error": 0.0005650535591115631
+  },
+  "failure_reduction_percent": 100.0,
+  "estimated_extra_dot_fraction_not_runtime": 0.02631578947368421,
+  "offline_gate_pass": true,
+  "constraints": "Offline attribution ONLY, no inference, no firmware speed validated"
+}

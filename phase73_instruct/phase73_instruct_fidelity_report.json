@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt": "Hello",
+  "input_ids": [
+    9707
+  ],
+  "source_checkpoint": "C:\\Users\\borja\\.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-0.5B-Instruct\\snapshots\\7ae557604adf67be50417f59c2c2f167def9a775\\model.safetensors",
+  "int4_token": 52643,
+  "original_token": 271,
+  "match": false,
+  "int4_logit": 12.530885696411133,
+  "original_logit": 12.84284782409668,
+  "int4_margin": 0.42623329162597656,
+  "original_margin": 1.2398147583007812,
+  "checks": "full 24-layer NumPy INT4 vs original float32 checkpoint, single raw input token"
+}

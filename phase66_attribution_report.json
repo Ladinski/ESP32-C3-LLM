@@ -1,0 +1,115 @@
+{
+  "results": {
+    "GATE": {
+      "input_exact_vs_reference": {
+        "failures": 0,
+        "count": 4864,
+        "max_abs": 2.4318695068359375e-05,
+        "mean_abs": 4.31610724741691e-06
+      },
+      "grouped_q15_vs_reference": {
+        "failures": 8,
+        "count": 4864,
+        "max_abs": 0.003581523895263672,
+        "mean_abs": 0.0006315994511396639
+      },
+      "q15_vs_device_exact": {
+        "failures": 8,
+        "count": 4864,
+        "max_abs": 0.0035767555236816406,
+        "mean_abs": 0.000631642899520557
+      },
+      "actual_esp32_vs_reference_trace": {
+        "failures": 8,
+        "count": 4864,
+        "max_abs": 0.0035839080810546875,
+        "mean_abs": 0.0006315931232225729
+      },
+      "replay_q15_vs_esp32_trace": {
+        "failures": 0,
+        "count": 4864,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    },
+    "UP": {
+      "input_exact_vs_reference": {
+        "failures": 0,
+        "count": 4864,
+        "max_abs": 1.4685094356536865e-05,
+        "mean_abs": 2.9723883428507755e-06
+      },
+      "grouped_q15_vs_reference": {
+        "failures": 357,
+        "count": 4864,
+        "max_abs": 0.0026873834431171417,
+        "mean_abs": 0.000494858340589488
+      },
+      "q15_vs_device_exact": {
+        "failures": 356,
+        "count": 4864,
+        "max_abs": 0.002689048647880554,
+        "mean_abs": 0.0004950009195077037
+      },
+      "actual_esp32_vs_reference_trace": {
+        "failures": 357,
+        "count": 4864,
+        "max_abs": 0.002687375992536545,
+        "mean_abs": 0.0004948432483663442
+      },
+      "replay_q15_vs_esp32_trace": {
+        "failures": 0,
+        "count": 4864,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    },
+    "DOWN": {
+      "input_exact_vs_reference": {
+        "failures": 0,
+        "count": 896,
+        "max_abs": 0.007080078125,
+        "mean_abs": 9.430724704121271e-05
+      },
+      "grouped_q15_vs_reference": {
+        "failures": 319,
+        "count": 896,
+        "max_abs": 0.00689697265625,
+        "mean_abs": 0.0009914381160923216
+      },
+      "q15_vs_device_exact": {
+        "failures": 311,
+        "count": 896,
+        "max_abs": 0.004703059792518616,
+        "mean_abs": 0.0009791797019695586
+      },
+      "selected_group": 17,
+      "outlier_local_index": 71,
+      "peel_top1_vs_reference": {
+        "failures": 144,
+        "count": 896,
+        "max_abs": 0.00689697265625,
+        "mean_abs": 0.000647951502149421
+      },
+      "peel_top1_vs_device_exact": {
+        "failures": 143,
+        "count": 896,
+        "max_abs": 0.002608269453048706,
+        "mean_abs": 0.0006332876649009579
+      },
+      "actual_esp32_vs_reference_trace": {
+        "failures": 319,
+        "count": 896,
+        "max_abs": 0.0069580078125,
+        "mean_abs": 0.0009915357244198373
+      },
+      "replay_q15_vs_esp32_trace": {
+        "failures": 0,
+        "count": 896,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    }
+  },
+  "warning": "OFFLINE ATTRIBUTION ONLY: no firmware changes or validated layer-4 fix."
+}

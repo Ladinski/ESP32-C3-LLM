@@ -1,0 +1,31 @@
+{
+  "upstream_ACT_error_only": {
+    "max_abs": 0.0101318359375,
+    "mean_abs": 6.977112928195441e-05,
+    "rms": 0.0003509222024946988,
+    "count_above_0_001": 1,
+    "count_above_0_01": 1,
+    "combined_tolerance_failures": 0
+  },
+  "grouped_Q15_projection_error_only": {
+    "max_abs": 0.009368062019348145,
+    "mean_abs": 0.0019207048794019751,
+    "rms": 0.002414654785770278,
+    "count_above_0_001": 603,
+    "count_above_0_01": 0,
+    "combined_tolerance_failures": 480
+  },
+  "combined_projected_error": {
+    "max_abs": 0.0101318359375,
+    "mean_abs": 0.0019277555901940754,
+    "rms": 0.0024331737907754085,
+    "count_above_0_001": 605,
+    "count_above_0_01": 1,
+    "combined_tolerance_failures": 482
+  },
+  "reconstruction_max_difference": 0.0,
+  "observed_phase48_MLP_OUT_max_error": 0.0100708008,
+  "observed_phase48_MLP_OUT_abs_failures": 605,
+  "full_device_MLP_OUT_vector_available": false,
+  "interpretation_limit": "Replay is approximate due to float rounding and lacks a matching captured device MLP_OUT vector. It cannot prove the exact cause of the historical 605 output failures."
+}

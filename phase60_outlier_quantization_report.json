@@ -1,0 +1,120 @@
+{
+  "model_sha256_expected": "9cb8e2b5e08ab6594f32c3dfd255c96e4ba52e7d6b02586c65cfc928d019ce43",
+  "baseline_reproduced": true,
+  "selected_group": 6,
+  "selected_score": 1.2695037274388596,
+  "upstream": {
+    "mixed_failures": 0,
+    "max_abs": 0.0101318359375,
+    "mean_abs": 6.977112928195441e-05
+  },
+  "baseline": {
+    "mixed_failures": 482,
+    "max_abs": 0.0101318359375,
+    "mean_abs": 0.0019277555899667018
+  },
+  "variants": [
+    {
+      "name": "baseline",
+      "kind": "baseline",
+      "peeled_positions": [],
+      "quantization_step": 0.041510164737701416,
+      "statistics": {
+        "mixed_failures": 482,
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.0019277555899667018
+      },
+      "failure_reduction_percent": 0.0,
+      "offline_precision_gate": false
+    },
+    {
+      "name": "peel_top_1",
+      "kind": "peel",
+      "peeled_positions": [
+        45
+      ],
+      "quantization_step": 2.906923327827826e-05,
+      "statistics": {
+        "mixed_failures": 0,
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.00010003031599938237
+      },
+      "failure_reduction_percent": 100.0,
+      "offline_precision_gate": true
+    },
+    {
+      "name": "peel_top_2",
+      "kind": "peel",
+      "peeled_positions": [
+        45,
+        36
+      ],
+      "quantization_step": 2.395315641479101e-05,
+      "statistics": {
+        "mixed_failures": 0,
+        "max_abs": 0.0101318359375,
+        "mean_abs": 9.994954530156974e-05
+      },
+      "failure_reduction_percent": 100.0,
+      "offline_precision_gate": true
+    },
+    {
+      "name": "peel_top_4",
+      "kind": "peel",
+      "peeled_positions": [
+        45,
+        36,
+        41,
+        92
+      ],
+      "quantization_step": 1.271854398510186e-05,
+      "statistics": {
+        "mixed_failures": 0,
+        "max_abs": 0.0101318359375,
+        "mean_abs": 9.995053265551437e-05
+      },
+      "failure_reduction_percent": 100.0,
+      "offline_precision_gate": true
+    },
+    {
+      "name": "clip_p99",
+      "kind": "clip",
+      "peeled_positions": [],
+      "quantization_step": 2.7687890906236134e-05,
+      "statistics": {
+        "mixed_failures": 25,
+        "max_abs": 610.4831581115723,
+        "mean_abs": 1.117732018424314
+      },
+      "failure_reduction_percent": 94.81327800829875,
+      "offline_precision_gate": false
+    },
+    {
+      "name": "clip_p95",
+      "kind": "clip",
+      "peeled_positions": [],
+      "quantization_step": 9.857837540039327e-06,
+      "statistics": {
+        "mixed_failures": 810,
+        "max_abs": 610.7455520629883,
+        "mean_abs": 1.1285811001536916
+      },
+      "failure_reduction_percent": -68.04979253112033,
+      "offline_precision_gate": false
+    },
+    {
+      "name": "clip_p90",
+      "kind": "clip",
+      "peeled_positions": [],
+      "quantization_step": 6.993376700847875e-06,
+      "statistics": {
+        "mixed_failures": 839,
+        "max_abs": 610.7877063751221,
+        "mean_abs": 1.131228764763429
+      },
+      "failure_reduction_percent": -74.06639004149378,
+      "offline_precision_gate": false
+    }
+  ],
+  "warning": "Precision replay only; sparse scalar read overhead and runtime not measured on ESP32; full 24-layer accuracy unknown."
+}

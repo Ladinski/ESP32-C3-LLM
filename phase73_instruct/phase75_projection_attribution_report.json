@@ -1,0 +1,475 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt": "Hello",
+  "token_id": 9707,
+  "layers": [
+    1,
+    3,
+    22,
+    23,
+    24
+  ],
+  "int4_sha256": "dadff9c3ff9e3f9e24a839888f91c3a7cb0b4ce15ee4141901fc703a538b26b7",
+  "first_failure": {
+    "layer": 1,
+    "projection": "q_proj"
+  },
+  "results": [
+    {
+      "count": 896,
+      "failures": 748,
+      "max_abs": 0.26242923736572266,
+      "mean_abs": 0.021066717350809734,
+      "cosine": 0.9999904658282048,
+      "layer": 1,
+      "projection": "q_proj",
+      "weight_error": {
+        "mae": 0.008736438197655993,
+        "max_abs": 0.0876116156578064
+      }
+    },
+    {
+      "count": 128,
+      "failures": 79,
+      "max_abs": 0.2771110534667969,
+      "mean_abs": 0.02090001999749802,
+      "cosine": 0.9999992312101165,
+      "layer": 1,
+      "projection": "k_proj",
+      "weight_error": {
+        "mae": 0.00793210354004259,
+        "max_abs": 0.07310265302658081
+      }
+    },
+    {
+      "count": 128,
+      "failures": 116,
+      "max_abs": 0.018375862389802933,
+      "mean_abs": 0.004645270593755413,
+      "cosine": 0.9686773285289815,
+      "layer": 1,
+      "projection": "v_proj",
+      "weight_error": {
+        "mae": 0.0016944629074272047,
+        "max_abs": 0.008649550378322601
+      }
+    },
+    {
+      "count": 896,
+      "failures": 494,
+      "max_abs": 0.010771067813038826,
+      "mean_abs": 0.001403366515091875,
+      "cosine": 0.9850400856065118,
+      "layer": 1,
+      "projection": "o_proj",
+      "weight_error": {
+        "mae": 0.002153051125653764,
+        "max_abs": 0.0401088148355484
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4775,
+      "max_abs": 0.831568717956543,
+      "mean_abs": 0.05469083527216418,
+      "cosine": 0.9951631566835804,
+      "layer": 1,
+      "projection": "gate_proj",
+      "weight_error": {
+        "mae": 0.0029063652930688398,
+        "max_abs": 0.03515625
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4782,
+      "max_abs": 0.31187522411346436,
+      "mean_abs": 0.045038170770567376,
+      "cosine": 0.9867760142084941,
+      "layer": 1,
+      "projection": "up_proj",
+      "weight_error": {
+        "mae": 0.0023871092632449234,
+        "max_abs": 0.0198974609375
+      }
+    },
+    {
+      "count": 896,
+      "failures": 868,
+      "max_abs": 0.21857798099517822,
+      "mean_abs": 0.02752097580586061,
+      "cosine": 0.989683331170564,
+      "layer": 1,
+      "projection": "down_proj",
+      "weight_error": {
+        "mae": 0.002987582956474394,
+        "max_abs": 0.021728515625
+      }
+    },
+    {
+      "count": 896,
+      "failures": 879,
+      "max_abs": 0.8128827661275864,
+      "mean_abs": 0.09624744630335565,
+      "cosine": 0.996498218485771,
+      "layer": 3,
+      "projection": "q_proj",
+      "weight_error": {
+        "mae": 0.0035473451898353084,
+        "max_abs": 0.0247802734375
+      }
+    },
+    {
+      "count": 128,
+      "failures": 125,
+      "max_abs": 0.5390424728393555,
+      "mean_abs": 0.1467243580846116,
+      "cosine": 0.9998746708159199,
+      "layer": 3,
+      "projection": "k_proj",
+      "weight_error": {
+        "mae": 0.0050683311740077185,
+        "max_abs": 0.0185546875
+      }
+    },
+    {
+      "count": 128,
+      "failures": 126,
+      "max_abs": 0.21234416961669922,
+      "mean_abs": 0.04770432534860447,
+      "cosine": 0.9897120534952679,
+      "layer": 3,
+      "projection": "v_proj",
+      "weight_error": {
+        "mae": 0.0019654632732754506,
+        "max_abs": 0.0068359375
+      }
+    },
+    {
+      "count": 896,
+      "failures": 865,
+      "max_abs": 0.29359960556030273,
+      "mean_abs": 0.025560991432679918,
+      "cosine": 0.9799445640155143,
+      "layer": 3,
+      "projection": "o_proj",
+      "weight_error": {
+        "mae": 0.0022310270069698882,
+        "max_abs": 0.0383649617433548
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4809,
+      "max_abs": 0.8947534561157227,
+      "mean_abs": 0.13302303193708404,
+      "cosine": 0.9941371338274699,
+      "layer": 3,
+      "projection": "gate_proj",
+      "weight_error": {
+        "mae": 0.003056369046151881,
+        "max_abs": 0.0322963148355484
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4817,
+      "max_abs": 1.5822525024414062,
+      "mean_abs": 0.09652967510498313,
+      "cosine": 0.9965887100464585,
+      "layer": 3,
+      "projection": "up_proj",
+      "weight_error": {
+        "mae": 0.002251284443010343,
+        "max_abs": 0.04547989368438721
+      }
+    },
+    {
+      "count": 896,
+      "failures": 894,
+      "max_abs": 39.80214959383011,
+      "mean_abs": 2.6420042163081234,
+      "cosine": 0.9891595313877597,
+      "layer": 3,
+      "projection": "down_proj",
+      "weight_error": {
+        "mae": 0.0027905826263437236,
+        "max_abs": 0.03125
+      }
+    },
+    {
+      "count": 896,
+      "failures": 884,
+      "max_abs": 0.5959930419921875,
+      "mean_abs": 0.12338805816502177,
+      "cosine": 0.9975773215317587,
+      "layer": 22,
+      "projection": "q_proj",
+      "weight_error": {
+        "mae": 0.0030621717286709095,
+        "max_abs": 0.016392290592193604
+      }
+    },
+    {
+      "count": 128,
+      "failures": 128,
+      "max_abs": 0.48293066024780273,
+      "mean_abs": 0.12610168902028818,
+      "cosine": 0.8284569786655646,
+      "layer": 22,
+      "projection": "k_proj",
+      "weight_error": {
+        "mae": 0.0029767086160989364,
+        "max_abs": 0.01324462890625
+      }
+    },
+    {
+      "count": 128,
+      "failures": 127,
+      "max_abs": 0.6333389580249786,
+      "mean_abs": 0.2133459168835543,
+      "cosine": 0.9261456942775439,
+      "layer": 22,
+      "projection": "v_proj",
+      "weight_error": {
+        "mae": 0.005724448305889902,
+        "max_abs": 0.0213274285197258
+      }
+    },
+    {
+      "count": 896,
+      "failures": 887,
+      "max_abs": 0.3072631359100342,
+      "mean_abs": 0.07959651045218509,
+      "cosine": 0.9008312177618599,
+      "layer": 22,
+      "projection": "o_proj",
+      "weight_error": {
+        "mae": 0.0031198835081861385,
+        "max_abs": 0.0239432193338871
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4850,
+      "max_abs": 9.909196853637695,
+      "mean_abs": 0.6565770786064126,
+      "cosine": 0.9800427082990888,
+      "layer": 22,
+      "projection": "gate_proj",
+      "weight_error": {
+        "mae": 0.002683920663570443,
+        "max_abs": 0.04157364368438721
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4852,
+      "max_abs": 3.9256858825683594,
+      "mean_abs": 0.6163442959851205,
+      "cosine": 0.9422151088359418,
+      "layer": 22,
+      "projection": "up_proj",
+      "weight_error": {
+        "mae": 0.002656101529056819,
+        "max_abs": 0.0540597066283226
+      }
+    },
+    {
+      "count": 896,
+      "failures": 896,
+      "max_abs": 77.18724083900452,
+      "mean_abs": 2.8903605154108454,
+      "cosine": 0.9964685140173921,
+      "layer": 22,
+      "projection": "down_proj",
+      "weight_error": {
+        "mae": 0.003246965454867995,
+        "max_abs": 0.0446079820394516
+      }
+    },
+    {
+      "count": 896,
+      "failures": 890,
+      "max_abs": 0.79193115234375,
+      "mean_abs": 0.14299562902306207,
+      "cosine": 0.992449593565031,
+      "layer": 23,
+      "projection": "q_proj",
+      "weight_error": {
+        "mae": 0.002978878213661586,
+        "max_abs": 0.0183977410197258
+      }
+    },
+    {
+      "count": 128,
+      "failures": 128,
+      "max_abs": 0.5226430892944336,
+      "mean_abs": 0.12755516468314454,
+      "cosine": 0.9944990659002092,
+      "layer": 23,
+      "projection": "k_proj",
+      "weight_error": {
+        "mae": 0.002835104511161392,
+        "max_abs": 0.01171875
+      }
+    },
+    {
+      "count": 128,
+      "failures": 128,
+      "max_abs": 0.7739182710647583,
+      "mean_abs": 0.21834761078935117,
+      "cosine": 0.9860095122584965,
+      "layer": 23,
+      "projection": "v_proj",
+      "weight_error": {
+        "mae": 0.005286452266915376,
+        "max_abs": 0.01507568359375
+      }
+    },
+    {
+      "count": 896,
+      "failures": 894,
+      "max_abs": 0.7010430097579956,
+      "mean_abs": 0.13356266960389412,
+      "cosine": 0.8924501690144274,
+      "layer": 23,
+      "projection": "o_proj",
+      "weight_error": {
+        "mae": 0.0029070809102777,
+        "max_abs": 0.020368307828903198
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4806,
+      "max_abs": 1.0878994464874268,
+      "mean_abs": 0.11386047488677402,
+      "cosine": 0.9920419481131558,
+      "layer": 23,
+      "projection": "gate_proj",
+      "weight_error": {
+        "mae": 0.0026425319655815046,
+        "max_abs": 0.0542689710855484
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4814,
+      "max_abs": 1.2856286764144897,
+      "mean_abs": 0.12264960174721445,
+      "cosine": 0.9933867493940692,
+      "layer": 23,
+      "projection": "up_proj",
+      "weight_error": {
+        "mae": 0.002772485838718741,
+        "max_abs": 0.0264892578125
+      }
+    },
+    {
+      "count": 896,
+      "failures": 893,
+      "max_abs": 1.3644323348999023,
+      "mean_abs": 0.21623459780156346,
+      "cosine": 0.9850193829045717,
+      "layer": 23,
+      "projection": "down_proj",
+      "weight_error": {
+        "mae": 0.0033534022828309445,
+        "max_abs": 0.0238037109375
+      }
+    },
+    {
+      "count": 896,
+      "failures": 889,
+      "max_abs": 1.2303590774536133,
+      "mean_abs": 0.1949880415922962,
+      "cosine": 0.9908372680086239,
+      "layer": 24,
+      "projection": "q_proj",
+      "weight_error": {
+        "mae": 0.002771600347353206,
+        "max_abs": 0.0172642283141613
+      }
+    },
+    {
+      "count": 128,
+      "failures": 128,
+      "max_abs": 1.0729455947875977,
+      "mean_abs": 0.17847601568792015,
+      "cosine": 0.9936657744646651,
+      "layer": 24,
+      "projection": "k_proj",
+      "weight_error": {
+        "mae": 0.002687390264829353,
+        "max_abs": 0.01474435068666935
+      }
+    },
+    {
+      "count": 128,
+      "failures": 127,
+      "max_abs": 1.3168678283691406,
+      "mean_abs": 0.30688566272147,
+      "cosine": 0.9883696274588352,
+      "layer": 24,
+      "projection": "v_proj",
+      "weight_error": {
+        "mae": 0.004425104795895355,
+        "max_abs": 0.0174211785197258
+      }
+    },
+    {
+      "count": 896,
+      "failures": 888,
+      "max_abs": 2.6264524459838867,
+      "mean_abs": 0.19871186348193856,
+      "cosine": 0.9315061126005313,
+      "layer": 24,
+      "projection": "o_proj",
+      "weight_error": {
+        "mae": 0.0030197852279111336,
+        "max_abs": 0.0657784640789032
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4830,
+      "max_abs": 1.592433214187622,
+      "mean_abs": 0.18397471747563318,
+      "cosine": 0.9926269572076475,
+      "layer": 24,
+      "projection": "gate_proj",
+      "weight_error": {
+        "mae": 0.002641247588364372,
+        "max_abs": 0.0255126953125
+      }
+    },
+    {
+      "count": 4864,
+      "failures": 4818,
+      "max_abs": 1.0869598984718323,
+      "mean_abs": 0.17529484114952779,
+      "cosine": 0.992852004707306,
+      "layer": 24,
+      "projection": "up_proj",
+      "weight_error": {
+        "mae": 0.0026105068162005315,
+        "max_abs": 0.0211704783141613
+      }
+    },
+    {
+      "count": 896,
+      "failures": 891,
+      "max_abs": 2.2264256477355957,
+      "mean_abs": 0.255970646095063,
+      "cosine": 0.9798280056622272,
+      "layer": 24,
+      "projection": "down_proj",
+      "weight_error": {
+        "mae": 0.002944132042341321,
+        "max_abs": 0.03759765625
+      }
+    }
+  ],
+  "note": "Same original input activations for every projection; not a sequential INT4 replay."
+}

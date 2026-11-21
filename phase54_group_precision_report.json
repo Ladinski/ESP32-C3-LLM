@@ -1,0 +1,106 @@
+{
+  "upstream_error": {
+    "max_abs": 0.0101318359375,
+    "mean_abs": 6.977112928195441e-05,
+    "rms": 0.0003509222024946988,
+    "count_above_0_001": 1,
+    "count_above_0_01": 1,
+    "combined_tolerance_failures": 0
+  },
+  "baseline_128_failures": 482,
+  "candidates": [
+    {
+      "group_size": 128,
+      "group_count": 38,
+      "relative_group_work_vs_128": 1.0,
+      "q15_projection_error": {
+        "max_abs": 0.009368062019348145,
+        "mean_abs": 0.0019207048794019751,
+        "rms": 0.002414654785770278,
+        "count_above_0_001": 603,
+        "count_above_0_01": 0,
+        "combined_tolerance_failures": 480
+      },
+      "combined_error": {
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.0019277555901940754,
+        "rms": 0.0024331737907754085,
+        "count_above_0_001": 605,
+        "count_above_0_01": 1,
+        "combined_tolerance_failures": 482
+      },
+      "failure_reduction_vs_128": 0.0,
+      "offline_precision_gate": false
+    },
+    {
+      "group_size": 64,
+      "group_count": 76,
+      "relative_group_work_vs_128": 2.0,
+      "q15_projection_error": {
+        "max_abs": 0.005624115467071533,
+        "mean_abs": 0.001372241880549804,
+        "rms": 0.0017172202190129768,
+        "count_above_0_001": 513,
+        "count_above_0_01": 0,
+        "combined_tolerance_failures": 354
+      },
+      "combined_error": {
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.0013828403043589788,
+        "rms": 0.0017499979228280977,
+        "count_above_0_001": 517,
+        "count_above_0_01": 1,
+        "combined_tolerance_failures": 354
+      },
+      "failure_reduction_vs_128": 0.26556016597510373,
+      "offline_precision_gate": false
+    },
+    {
+      "group_size": 32,
+      "group_count": 152,
+      "relative_group_work_vs_128": 4.0,
+      "q15_projection_error": {
+        "max_abs": 0.0034379959106445312,
+        "mean_abs": 0.0009664694912641737,
+        "rms": 0.0012095326655918804,
+        "count_above_0_001": 359,
+        "count_above_0_01": 0,
+        "combined_tolerance_failures": 204
+      },
+      "combined_error": {
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.000981959792138046,
+        "rms": 0.0012606375605455833,
+        "count_above_0_001": 366,
+        "count_above_0_01": 1,
+        "combined_tolerance_failures": 208
+      },
+      "failure_reduction_vs_128": 0.5684647302904564,
+      "offline_precision_gate": false
+    },
+    {
+      "group_size": 16,
+      "group_count": 304,
+      "relative_group_work_vs_128": 8.0,
+      "q15_projection_error": {
+        "max_abs": 0.002757064998149872,
+        "mean_abs": 0.0007326091339824156,
+        "rms": 0.0009186032653876955,
+        "count_above_0_001": 250,
+        "count_above_0_01": 0,
+        "combined_tolerance_failures": 101
+      },
+      "combined_error": {
+        "max_abs": 0.0101318359375,
+        "mean_abs": 0.000746902396778231,
+        "rms": 0.0009810684449445947,
+        "count_above_0_001": 251,
+        "count_above_0_01": 1,
+        "combined_tolerance_failures": 107
+      },
+      "failure_reduction_vs_128": 0.7780082987551867,
+      "offline_precision_gate": false
+    }
+  ],
+  "interpretation": "Offline error counterfactual only. Group count is NOT an ESP32 speed benchmark. Do not promote a candidate until a short ESP32 kernel microbenchmark proves it is not materially slower and a paired hardware output validates accuracy."
+}

@@ -1,0 +1,12 @@
+{
+  "layer": 3,
+  "projection": "down_proj",
+  "rows": 896,
+  "cols": 4864,
+  "max_abs": 5.113611827756159e-06,
+  "mean_abs": 5.703861466024795e-07,
+  "failures": 0,
+  "atol": 0.002,
+  "rtol": 0.0005,
+  "pass": true
+}

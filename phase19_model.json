@@ -1,0 +1,12 @@
+{
+  "format": "ESP32_C3_GPTNEO_PHASE19_V1",
+  "source": "roneneldan/TinyStories-1M",
+  "bytes": 2119012,
+  "sha256": "d25210d31859b8c3e7620d6671d7703ec5f329103a4c9fb62f995258556460a3",
+  "vocabulary_offset": 0,
+  "positions_offset": 1809252,
+  "layers_offset": 1882980,
+  "layer_bytes": 29440,
+  "head_norm_offset": 2118500,
+  "layout": "vocab INT4 rows | position INT4 rows | 8 layer packet groups | final LN FP32"
+}

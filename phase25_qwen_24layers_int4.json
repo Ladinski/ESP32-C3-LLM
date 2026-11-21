@@ -1,0 +1,1531 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "source": "official pretrained checkpoint (offline INT4 conversion)",
+  "quantization": "symmetric INT4 per row with float32 scale",
+  "image_size": 180419712,
+  "sha256": "9cb8e2b5e08ab6594f32c3dfd255c96e4ba52e7d6b02586c65cfc928d019ce43",
+  "layers": [
+    {
+      "index": 0,
+      "norms": [
+        7296,
+        10880
+      ],
+      "biases": [
+        14464,
+        18048,
+        18560
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 19072,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 424064,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 481920,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 539776,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 944768,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 3143296,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 5341824,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "norms": [
+        7524480,
+        7528064
+      ],
+      "biases": [
+        7531648,
+        7535232,
+        7535744
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 7536256,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 7941248,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 7999104,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 8056960,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 8461952,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 10660480,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 12859008,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "norms": [
+        15041664,
+        15045248
+      ],
+      "biases": [
+        15048832,
+        15052416,
+        15052928
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 15053440,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 15458432,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 15516288,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 15574144,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 15979136,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 18177664,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 20376192,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "norms": [
+        22558848,
+        22562432
+      ],
+      "biases": [
+        22566016,
+        22569600,
+        22570112
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 22570624,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 22975616,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 23033472,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 23091328,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 23496320,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 25694848,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 27893376,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "norms": [
+        30076032,
+        30079616
+      ],
+      "biases": [
+        30083200,
+        30086784,
+        30087296
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 30087808,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 30492800,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 30550656,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 30608512,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 31013504,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 33212032,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 35410560,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "norms": [
+        37593216,
+        37596800
+      ],
+      "biases": [
+        37600384,
+        37603968,
+        37604480
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 37604992,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 38009984,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 38067840,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 38125696,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 38530688,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 40729216,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 42927744,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "norms": [
+        45110400,
+        45113984
+      ],
+      "biases": [
+        45117568,
+        45121152,
+        45121664
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 45122176,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 45527168,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 45585024,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 45642880,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 46047872,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 48246400,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 50444928,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "norms": [
+        52627584,
+        52631168
+      ],
+      "biases": [
+        52634752,
+        52638336,
+        52638848
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 52639360,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 53044352,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 53102208,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 53160064,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 53565056,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 55763584,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 57962112,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "norms": [
+        60144768,
+        60148352
+      ],
+      "biases": [
+        60151936,
+        60155520,
+        60156032
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 60156544,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 60561536,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 60619392,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 60677248,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 61082240,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 63280768,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 65479296,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "norms": [
+        67661952,
+        67665536
+      ],
+      "biases": [
+        67669120,
+        67672704,
+        67673216
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 67673728,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 68078720,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 68136576,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 68194432,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 68599424,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 70797952,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 72996480,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "norms": [
+        75179136,
+        75182720
+      ],
+      "biases": [
+        75186304,
+        75189888,
+        75190400
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 75190912,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 75595904,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 75653760,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 75711616,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 76116608,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 78315136,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 80513664,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "norms": [
+        82696320,
+        82699904
+      ],
+      "biases": [
+        82703488,
+        82707072,
+        82707584
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 82708096,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 83113088,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 83170944,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 83228800,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 83633792,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 85832320,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 88030848,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "norms": [
+        90213504,
+        90217088
+      ],
+      "biases": [
+        90220672,
+        90224256,
+        90224768
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 90225280,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 90630272,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 90688128,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 90745984,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 91150976,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 93349504,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 95548032,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "norms": [
+        97730688,
+        97734272
+      ],
+      "biases": [
+        97737856,
+        97741440,
+        97741952
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 97742464,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 98147456,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 98205312,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 98263168,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 98668160,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 100866688,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 103065216,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "norms": [
+        105247872,
+        105251456
+      ],
+      "biases": [
+        105255040,
+        105258624,
+        105259136
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 105259648,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 105664640,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 105722496,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 105780352,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 106185344,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 108383872,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 110582400,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "norms": [
+        112765056,
+        112768640
+      ],
+      "biases": [
+        112772224,
+        112775808,
+        112776320
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 112776832,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 113181824,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 113239680,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 113297536,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 113702528,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 115901056,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 118099584,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "norms": [
+        120282240,
+        120285824
+      ],
+      "biases": [
+        120289408,
+        120292992,
+        120293504
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 120294016,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 120699008,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 120756864,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 120814720,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 121219712,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 123418240,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 125616768,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "norms": [
+        127799424,
+        127803008
+      ],
+      "biases": [
+        127806592,
+        127810176,
+        127810688
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 127811200,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 128216192,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 128274048,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 128331904,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 128736896,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 130935424,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 133133952,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "norms": [
+        135316608,
+        135320192
+      ],
+      "biases": [
+        135323776,
+        135327360,
+        135327872
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 135328384,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 135733376,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 135791232,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 135849088,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 136254080,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 138452608,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 140651136,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "norms": [
+        142833792,
+        142837376
+      ],
+      "biases": [
+        142840960,
+        142844544,
+        142845056
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 142845568,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 143250560,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 143308416,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 143366272,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 143771264,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 145969792,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 148168320,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "norms": [
+        150350976,
+        150354560
+      ],
+      "biases": [
+        150358144,
+        150361728,
+        150362240
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 150362752,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 150767744,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 150825600,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 150883456,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 151288448,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 153486976,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 155685504,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "norms": [
+        157868160,
+        157871744
+      ],
+      "biases": [
+        157875328,
+        157878912,
+        157879424
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 157879936,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 158284928,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 158342784,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 158400640,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 158805632,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 161004160,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 163202688,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "norms": [
+        165385344,
+        165388928
+      ],
+      "biases": [
+        165392512,
+        165396096,
+        165396608
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 165397120,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 165802112,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 165859968,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 165917824,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 166322816,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 168521344,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 170719872,
+          "row_bytes": 2436
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "norms": [
+        172902528,
+        172906112
+      ],
+      "biases": [
+        172909696,
+        172913280,
+        172913792
+      ],
+      "matrices": [
+        {
+          "name": "q_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 172914304,
+          "row_bytes": 452
+        },
+        {
+          "name": "k_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 173319296,
+          "row_bytes": 452
+        },
+        {
+          "name": "v_proj",
+          "rows": 128,
+          "cols": 896,
+          "offset": 173377152,
+          "row_bytes": 452
+        },
+        {
+          "name": "o_proj",
+          "rows": 896,
+          "cols": 896,
+          "offset": 173435008,
+          "row_bytes": 452
+        },
+        {
+          "name": "gate_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 173840000,
+          "row_bytes": 452
+        },
+        {
+          "name": "up_proj",
+          "rows": 4864,
+          "cols": 896,
+          "offset": 176038528,
+          "row_bytes": 452
+        },
+        {
+          "name": "down_proj",
+          "rows": 896,
+          "cols": 4864,
+          "offset": 178237056,
+          "row_bytes": 2436
+        }
+      ]
+    }
+  ],
+  "embeddings": [
+    128,
+    3712
+  ],
+  "input_token_ids": [
+    100,
+    200
+  ],
+  "page": 512,
+  "model_layers_total": 24
+}

@@ -1,0 +1,10 @@
+{
+  "training_text": "hello esp32!\n",
+  "train_positions": 12,
+  "training_accuracy": 1.0,
+  "generated_sample": "hello esp32!\n",
+  "quantization": "weights int4, embedding int8, float activations",
+  "model_bytes": 1408,
+  "fnv32": "813cab4f",
+  "generalization_tested": false
+}

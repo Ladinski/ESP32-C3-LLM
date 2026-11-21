@@ -1,0 +1,64 @@
+{
+  "top_three_activation_errors": [
+    {
+      "feature": 813,
+      "device": -1359.873046875,
+      "reference": -1359.8974609375,
+      "difference": 0.0244140625
+    },
+    {
+      "feature": 2661,
+      "device": -15.132532119750977,
+      "reference": -15.130448341369629,
+      "difference": -0.0020837783813476562
+    },
+    {
+      "feature": 4376,
+      "device": 30.276893615722656,
+      "reference": 30.275625228881836,
+      "difference": 0.0012683868408203125
+    }
+  ],
+  "number_activation_errors_over_0.001": 3,
+  "projection_differences": {
+    "all_error": {
+      "max_abs": 0.010098366066813469,
+      "mean_abs": 6.973128620302305e-05,
+      "rms": 0.0003498422033993303,
+      "above_abs_0.001": 1,
+      "above_abs_0.01": 1
+    },
+    "largest_3": {
+      "max_abs": 0.00994397047907114,
+      "mean_abs": 3.7690275348722935e-05,
+      "rms": 0.0003386222624559512,
+      "above_abs_0.001": 1,
+      "above_abs_0.01": 0
+    },
+    "remaining_4861": {
+      "max_abs": 0.00036741254734806716,
+      "mean_abs": 4.757530405186117e-05,
+      "rms": 6.22288399710151e-05,
+      "above_abs_0.001": 0,
+      "above_abs_0.01": 0
+    },
+    "error_gt_0.001": {
+      "max_abs": 0.00994397047907114,
+      "mean_abs": 3.7690275348722935e-05,
+      "rms": 0.0003386222624559512,
+      "above_abs_0.001": 1,
+      "above_abs_0.01": 0
+    },
+    "error_le_0.001": {
+      "max_abs": 0.00036741254734806716,
+      "mean_abs": 4.757530405186117e-05,
+      "rms": 6.22288399710151e-05,
+      "above_abs_0.001": 0,
+      "above_abs_0.01": 0
+    }
+  },
+  "top3_fraction_of_total_projected_l2_norm": 0.9679285665526981,
+  "linearity_check_max_difference": 1.1641532182693481e-10,
+  "observed_prior_phase48_mlp_output_max_error": 0.0100708008,
+  "caveat": "These are calculated output differences attributable to the captured ACT mismatch alone. They do not include the difference introduced by ESP32 grouped-Q15 down-projection arithmetic, nor reference-state/MLP residual differences. Comparison to the previously logged 0.0100708 is indicative only; device full MLP_OUT vector is absent from this trace."
+}

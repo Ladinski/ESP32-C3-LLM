@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "source": "tied embedding weights",
+  "source_tensor": "model.embed_tokens.weight",
+  "quantization": "symmetric per-output-row INT4 with FP32 scale",
+  "vocab": 151936,
+  "hidden": 896,
+  "final_norm_bytes": 3584,
+  "row_bytes": 452,
+  "head_offset": 3584,
+  "image_size": 68678656,
+  "sha256": "c7b78de4d12ae341e45c5e87ab59098af37aa1e03ce793cf3f278be649c5659a"
+}

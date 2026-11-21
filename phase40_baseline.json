@@ -1,0 +1,32 @@
+{
+  "mode": "baseline",
+  "bytes": 4194304,
+  "repeats": 3,
+  "median_seconds": 5.232342,
+  "runs": [
+    {
+      "seconds": 5.232342,
+      "mib_per_s": 0.7644760224006764,
+      "rx_seconds": 4.704161,
+      "host_write_seconds": 5.222943501139525,
+      "heap": 93720,
+      "stack": 2804
+    },
+    {
+      "seconds": 5.175438,
+      "mib_per_s": 0.7728814450100648,
+      "rx_seconds": 4.66959,
+      "host_write_seconds": 5.139790200570133,
+      "heap": 93720,
+      "stack": 2804
+    },
+    {
+      "seconds": 5.40214,
+      "mib_per_s": 0.7404473042164772,
+      "rx_seconds": 4.909558,
+      "host_write_seconds": 5.365206901100464,
+      "heap": 93720,
+      "stack": 2804
+    }
+  ]
+}

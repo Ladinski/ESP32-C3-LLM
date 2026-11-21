@@ -1,0 +1,21 @@
+{
+  "prompt": "Hi?",
+  "token_ids": [
+    13048,
+    30
+  ],
+  "device_token": 220,
+  "reference_token": 220,
+  "token_match": true,
+  "atol": 0.001,
+  "rtol": 0.001,
+  "positions_verified": 2,
+  "layers_per_position": 24,
+  "hidden_mixed_failures": 5,
+  "hidden_max_abs": 0.0028438568115234375,
+  "hidden_mean_abs": 0.0003905183589917475,
+  "hidden_norm_max": 0.002629101276397705,
+  "device_head_logit": 15.6977711,
+  "reference_head_logit": 15.697431564331055,
+  "comparison": "FP32 reference of genuine pretrained INT4 transformer image and INT4 head, not BF16 original Qwen"
+}

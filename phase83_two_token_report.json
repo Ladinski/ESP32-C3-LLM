@@ -1,0 +1,18 @@
+{
+  "positions": 2,
+  "layers": 24,
+  "initial_token_id": 9707,
+  "first_layer_failures": 0,
+  "second_position_layer1_failures": 0,
+  "tokens": [
+    [
+      11,
+      12.3915415
+    ],
+    [
+      358,
+      16.205143
+    ]
+  ],
+  "elapsed_seconds": 2729.3439999999246
+}

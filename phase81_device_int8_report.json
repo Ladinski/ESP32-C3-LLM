@@ -1,0 +1,12 @@
+{
+  "layer": 1,
+  "projection": "q_proj",
+  "rows": 896,
+  "cols": 896,
+  "max_abs": 3.183919274896141e-06,
+  "mean_abs": 3.4178149286720244e-07,
+  "failures": 0,
+  "atol": 0.002,
+  "rtol": 0.0005,
+  "pass": true
+}

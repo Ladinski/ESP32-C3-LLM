@@ -1,0 +1,211 @@
+{
+  "checkpoint": "Qwen/Qwen2.5-0.5B-Instruct",
+  "prompt": "Hello",
+  "token_ids": [
+    9707
+  ],
+  "layers": [
+    {
+      "layer": 1,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 1.9073486328125e-06,
+      "mean_abs": 1.5921588263673974e-07,
+      "cosine": 0.9999999999996461
+    },
+    {
+      "layer": 2,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 1.9073486328125e-06,
+      "mean_abs": 2.4699693312868476e-07,
+      "cosine": 0.9999999999995206
+    },
+    {
+      "layer": 3,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.00067138671875,
+      "mean_abs": 4.188544283221875e-06,
+      "cosine": 0.9999999999999941
+    },
+    {
+      "layer": 4,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.53855110598462e-06,
+      "cosine": 0.9999999999999971
+    },
+    {
+      "layer": 5,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.548934936922576e-06,
+      "cosine": 0.9999999999999971
+    },
+    {
+      "layer": 6,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.5677339325525935e-06,
+      "cosine": 0.9999999999999979
+    },
+    {
+      "layer": 7,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.5455755233498555e-06,
+      "cosine": 0.9999999999999977
+    },
+    {
+      "layer": 8,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.534680296533874e-06,
+      "cosine": 0.9999999999999977
+    },
+    {
+      "layer": 9,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.515658864485366e-06,
+      "cosine": 0.9999999999999977
+    },
+    {
+      "layer": 10,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0008544921875,
+      "mean_abs": 4.509582400455006e-06,
+      "cosine": 0.9999999999999973
+    },
+    {
+      "layer": 11,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.37059290041881e-06,
+      "cosine": 0.9999999999999973
+    },
+    {
+      "layer": 12,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.372330814866083e-06,
+      "cosine": 0.9999999999999976
+    },
+    {
+      "layer": 13,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.373719483347875e-06,
+      "cosine": 0.9999999999999972
+    },
+    {
+      "layer": 14,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.368223017081618e-06,
+      "cosine": 0.9999999999999971
+    },
+    {
+      "layer": 15,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.372307947570724e-06,
+      "cosine": 0.9999999999999971
+    },
+    {
+      "layer": 16,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.382472460357738e-06,
+      "cosine": 0.9999999999999977
+    },
+    {
+      "layer": 17,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.37731172756425e-06,
+      "cosine": 0.9999999999999962
+    },
+    {
+      "layer": 18,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.369631434591221e-06,
+      "cosine": 0.9999999999999979
+    },
+    {
+      "layer": 19,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.37429324457688e-06,
+      "cosine": 0.9999999999999976
+    },
+    {
+      "layer": 20,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.474647409681763e-06,
+      "cosine": 0.9999999999999972
+    },
+    {
+      "layer": 21,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.000732421875,
+      "mean_abs": 4.498520866036415e-06,
+      "cosine": 0.9999999999999977
+    },
+    {
+      "layer": 22,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0010986328125,
+      "mean_abs": 4.600908141583204e-06,
+      "cosine": 0.9999999999097524
+    },
+    {
+      "layer": 23,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0003910064697265625,
+      "mean_abs": 1.558325519519193e-05,
+      "cosine": 0.9999999999543404
+    },
+    {
+      "layer": 24,
+      "fails": 0,
+      "count": 896,
+      "max_abs": 0.0001888275146484375,
+      "mean_abs": 2.1195504814386368e-05,
+      "cosine": 0.9999999999520404
+    }
+  ],
+  "first_failing_layer": null,
+  "original_token": 271,
+  "numpy_fp32_token": 271,
+  "head_validation": "NumPy FP32 final hidden tested using original PyTorch FP32 lm_head",
+  "limitations": [
+    "one raw input token only",
+    "Q/K and RoPE irrelevant to length-one attention",
+    "No ESP32 or quantized operations",
+    "NumPy vs Torch may have small FP32 rounding drift"
+  ]
+}

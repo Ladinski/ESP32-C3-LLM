@@ -1,0 +1,41 @@
+{
+  "prompt": "Hi?",
+  "token_ids": [
+    13048
+  ],
+  "layers": 3,
+  "atol": 0.001,
+  "rtol": 0.001,
+  "worst_abs": 0.010009765625,
+  "worst_normalized": 0.0009158849716186523,
+  "first_failure": null,
+  "layer_results": [
+    {
+      "token": 0,
+      "layer": 1,
+      "abs_max": 8.09933990240097e-05,
+      "abs_mean": 1.454156699765008e-05,
+      "norm_max": 8.09933990240097e-05,
+      "norm_p99": 4.554763436317443e-05,
+      "combined_failures": 0
+    },
+    {
+      "token": 0,
+      "layer": 2,
+      "abs_max": 0.00012892484664916992,
+      "abs_mean": 2.563773575405191e-05,
+      "norm_max": 0.00012892484664916992,
+      "norm_p99": 7.894188165664658e-05,
+      "combined_failures": 0
+    },
+    {
+      "token": 0,
+      "layer": 3,
+      "abs_max": 0.010009765625,
+      "abs_mean": 0.00010338712101137,
+      "norm_max": 0.0009158849716186523,
+      "norm_p99": 0.00027453601360321,
+      "combined_failures": 0
+    }
+  ]
+}

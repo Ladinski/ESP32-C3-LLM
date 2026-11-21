@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "layers": 24,
+  "matrix_bytes_per_decode": 180129792,
+  "norm_bias_bytes_per_decode": 282624,
+  "total_required_layer_bytes_per_decode": 180412416,
+  "image_bytes": 180419712,
+  "smallest_layer_bytes": 7517184,
+  "largest_matrix_bytes": 2198528,
+  "usb_mib_per_second": 0.771,
+  "ideal_usb_transfer_seconds": 223.1578307392996,
+  "free_heap_bytes": 93720,
+  "optimistic_cache_bytes": 32768,
+  "optimistic_cache_fraction_percent": 0.01816282976887799,
+  "optimistic_cached_transfer_seconds": 223.1172989623865,
+  "note": "Traffic-only estimate, not prediction of actual decode latency; ignores model head and computational work."
+}

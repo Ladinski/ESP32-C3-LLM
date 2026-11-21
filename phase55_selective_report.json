@@ -1,0 +1,466 @@
+{
+  "baseline_tolerance": {
+    "atol": 0.001,
+    "rtol": 0.001
+  },
+  "input_only_failures": 0,
+  "selectors": {
+    "residual_l1": {
+      "top_group_indices": [
+        6,
+        34,
+        25,
+        20,
+        16,
+        26,
+        23,
+        9
+      ],
+      "top_group_scores": [
+        1.2695037274388596,
+        0.028820418112445623,
+        0.015911182592390105,
+        0.014425867455429398,
+        0.01148907631329621,
+        0.010592796141281724,
+        0.008340278349351138,
+        0.0069967455783626065
+      ],
+      "variants": [
+        {
+          "corrected_groups": 0,
+          "share_of_groups_corrected": 0.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 0.0019277555402368307,
+          "mixed_tolerance_failures": 482,
+          "max_normalized_error": 0.009413421154022217,
+          "requires_fp32_group_mac_fraction": 0.0,
+          "estimated_additional_dot_work_not_runtime": 0.0
+        },
+        {
+          "corrected_groups": 1,
+          "share_of_groups_corrected": 0.02631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 9.996606968343258e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0005649790982715786,
+          "requires_fp32_group_mac_fraction": 0.02631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.02631578947368421
+        },
+        {
+          "corrected_groups": 2,
+          "share_of_groups_corrected": 0.05263157894736842,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 8.610321674495935e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037990359123796225,
+          "requires_fp32_group_mac_fraction": 0.05263157894736842,
+          "estimated_additional_dot_work_not_runtime": 0.05263157894736842
+        },
+        {
+          "corrected_groups": 4,
+          "share_of_groups_corrected": 0.10526315789473684,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.943335367599502e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00047720596194267273,
+          "requires_fp32_group_mac_fraction": 0.10526315789473684,
+          "estimated_additional_dot_work_not_runtime": 0.10526315789473684
+        },
+        {
+          "corrected_groups": 8,
+          "share_of_groups_corrected": 0.21052631578947367,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.349703082581982e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0003972497652284801,
+          "requires_fp32_group_mac_fraction": 0.21052631578947367,
+          "estimated_additional_dot_work_not_runtime": 0.21052631578947367
+        },
+        {
+          "corrected_groups": 12,
+          "share_of_groups_corrected": 0.3157894736842105,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.198551611509174e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00039278293843381107,
+          "requires_fp32_group_mac_fraction": 0.3157894736842105,
+          "estimated_additional_dot_work_not_runtime": 0.3157894736842105
+        },
+        {
+          "corrected_groups": 16,
+          "share_of_groups_corrected": 0.42105263157894735,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.053941226331517e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.000384072627639398,
+          "requires_fp32_group_mac_fraction": 0.42105263157894735,
+          "estimated_additional_dot_work_not_runtime": 0.42105263157894735
+        },
+        {
+          "corrected_groups": 24,
+          "share_of_groups_corrected": 0.631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978103920118883e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037082104245200753,
+          "requires_fp32_group_mac_fraction": 0.631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.631578947368421
+        },
+        {
+          "corrected_groups": 38,
+          "share_of_groups_corrected": 1.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978233432164416e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00038518934161402285,
+          "requires_fp32_group_mac_fraction": 1.0,
+          "estimated_additional_dot_work_not_runtime": 1.0
+        }
+      ]
+    },
+    "residual_rms": {
+      "top_group_indices": [
+        6,
+        34,
+        25,
+        20,
+        16,
+        26,
+        23,
+        9
+      ],
+      "top_group_scores": [
+        0.011783535212360401,
+        0.00026034026874067155,
+        0.00014591834770833482,
+        0.00013254077900487499,
+        0.00010485402903032977,
+        9.54674635657315e-05,
+        7.380806843440752e-05,
+        6.53413109836619e-05
+      ],
+      "variants": [
+        {
+          "corrected_groups": 0,
+          "share_of_groups_corrected": 0.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 0.0019277555402368307,
+          "mixed_tolerance_failures": 482,
+          "max_normalized_error": 0.009413421154022217,
+          "requires_fp32_group_mac_fraction": 0.0,
+          "estimated_additional_dot_work_not_runtime": 0.0
+        },
+        {
+          "corrected_groups": 1,
+          "share_of_groups_corrected": 0.02631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 9.996606968343258e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0005649790982715786,
+          "requires_fp32_group_mac_fraction": 0.02631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.02631578947368421
+        },
+        {
+          "corrected_groups": 2,
+          "share_of_groups_corrected": 0.05263157894736842,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 8.610321674495935e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037990359123796225,
+          "requires_fp32_group_mac_fraction": 0.05263157894736842,
+          "estimated_additional_dot_work_not_runtime": 0.05263157894736842
+        },
+        {
+          "corrected_groups": 4,
+          "share_of_groups_corrected": 0.10526315789473684,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.943335367599502e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00047720596194267273,
+          "requires_fp32_group_mac_fraction": 0.10526315789473684,
+          "estimated_additional_dot_work_not_runtime": 0.10526315789473684
+        },
+        {
+          "corrected_groups": 8,
+          "share_of_groups_corrected": 0.21052631578947367,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.349703082581982e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0003972497652284801,
+          "requires_fp32_group_mac_fraction": 0.21052631578947367,
+          "estimated_additional_dot_work_not_runtime": 0.21052631578947367
+        },
+        {
+          "corrected_groups": 12,
+          "share_of_groups_corrected": 0.3157894736842105,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.198551611509174e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00039278293843381107,
+          "requires_fp32_group_mac_fraction": 0.3157894736842105,
+          "estimated_additional_dot_work_not_runtime": 0.3157894736842105
+        },
+        {
+          "corrected_groups": 16,
+          "share_of_groups_corrected": 0.42105263157894735,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.053941226331517e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.000384072627639398,
+          "requires_fp32_group_mac_fraction": 0.42105263157894735,
+          "estimated_additional_dot_work_not_runtime": 0.42105263157894735
+        },
+        {
+          "corrected_groups": 24,
+          "share_of_groups_corrected": 0.631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978103920118883e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037082104245200753,
+          "requires_fp32_group_mac_fraction": 0.631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.631578947368421
+        },
+        {
+          "corrected_groups": 38,
+          "share_of_groups_corrected": 1.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978233432164416e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00038518934161402285,
+          "requires_fp32_group_mac_fraction": 1.0,
+          "estimated_additional_dot_work_not_runtime": 1.0
+        }
+      ]
+    },
+    "residual_max": {
+      "top_group_indices": [
+        6,
+        34,
+        25,
+        20,
+        16,
+        26,
+        23,
+        9
+      ],
+      "top_group_scores": [
+        0.020590240135788918,
+        0.00045630335807800293,
+        0.00025670602917671204,
+        0.00022999942302703857,
+        0.00018177181482315063,
+        0.00016480684280395508,
+        0.0001195371150970459,
+        0.00011257827281951904
+      ],
+      "variants": [
+        {
+          "corrected_groups": 0,
+          "share_of_groups_corrected": 0.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 0.0019277555402368307,
+          "mixed_tolerance_failures": 482,
+          "max_normalized_error": 0.009413421154022217,
+          "requires_fp32_group_mac_fraction": 0.0,
+          "estimated_additional_dot_work_not_runtime": 0.0
+        },
+        {
+          "corrected_groups": 1,
+          "share_of_groups_corrected": 0.02631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 9.996606968343258e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0005649790982715786,
+          "requires_fp32_group_mac_fraction": 0.02631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.02631578947368421
+        },
+        {
+          "corrected_groups": 2,
+          "share_of_groups_corrected": 0.05263157894736842,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 8.610321674495935e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037990359123796225,
+          "requires_fp32_group_mac_fraction": 0.05263157894736842,
+          "estimated_additional_dot_work_not_runtime": 0.05263157894736842
+        },
+        {
+          "corrected_groups": 4,
+          "share_of_groups_corrected": 0.10526315789473684,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.943335367599502e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00047720596194267273,
+          "requires_fp32_group_mac_fraction": 0.10526315789473684,
+          "estimated_additional_dot_work_not_runtime": 0.10526315789473684
+        },
+        {
+          "corrected_groups": 8,
+          "share_of_groups_corrected": 0.21052631578947367,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.349703082581982e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0003972497652284801,
+          "requires_fp32_group_mac_fraction": 0.21052631578947367,
+          "estimated_additional_dot_work_not_runtime": 0.21052631578947367
+        },
+        {
+          "corrected_groups": 12,
+          "share_of_groups_corrected": 0.3157894736842105,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.198551611509174e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00039278293843381107,
+          "requires_fp32_group_mac_fraction": 0.3157894736842105,
+          "estimated_additional_dot_work_not_runtime": 0.3157894736842105
+        },
+        {
+          "corrected_groups": 16,
+          "share_of_groups_corrected": 0.42105263157894735,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.053941226331517e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.000384072627639398,
+          "requires_fp32_group_mac_fraction": 0.42105263157894735,
+          "estimated_additional_dot_work_not_runtime": 0.42105263157894735
+        },
+        {
+          "corrected_groups": 24,
+          "share_of_groups_corrected": 0.631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.97810246492736e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037082104245200753,
+          "requires_fp32_group_mac_fraction": 0.631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.631578947368421
+        },
+        {
+          "corrected_groups": 38,
+          "share_of_groups_corrected": 1.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978233432164416e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00038518934161402285,
+          "requires_fp32_group_mac_fraction": 1.0,
+          "estimated_additional_dot_work_not_runtime": 1.0
+        }
+      ]
+    },
+    "activation_max": {
+      "top_group_indices": [
+        6,
+        34,
+        25,
+        20,
+        16,
+        26,
+        23,
+        9
+      ],
+      "top_group_scores": [
+        1359.873046875,
+        30.276893615722656,
+        17.0414981842041,
+        15.132532119750977,
+        11.972160339355469,
+        10.801789283752441,
+        8.058904647827148,
+        7.469037055969238
+      ],
+      "variants": [
+        {
+          "corrected_groups": 0,
+          "share_of_groups_corrected": 0.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 0.0019277555402368307,
+          "mixed_tolerance_failures": 482,
+          "max_normalized_error": 0.009413421154022217,
+          "requires_fp32_group_mac_fraction": 0.0,
+          "estimated_additional_dot_work_not_runtime": 0.0
+        },
+        {
+          "corrected_groups": 1,
+          "share_of_groups_corrected": 0.02631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 9.996606968343258e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0005649790982715786,
+          "requires_fp32_group_mac_fraction": 0.02631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.02631578947368421
+        },
+        {
+          "corrected_groups": 2,
+          "share_of_groups_corrected": 0.05263157894736842,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 8.610321674495935e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037990359123796225,
+          "requires_fp32_group_mac_fraction": 0.05263157894736842,
+          "estimated_additional_dot_work_not_runtime": 0.05263157894736842
+        },
+        {
+          "corrected_groups": 4,
+          "share_of_groups_corrected": 0.10526315789473684,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.943335367599502e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00047720596194267273,
+          "requires_fp32_group_mac_fraction": 0.10526315789473684,
+          "estimated_additional_dot_work_not_runtime": 0.10526315789473684
+        },
+        {
+          "corrected_groups": 8,
+          "share_of_groups_corrected": 0.21052631578947367,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.349703082581982e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.0003972497652284801,
+          "requires_fp32_group_mac_fraction": 0.21052631578947367,
+          "estimated_additional_dot_work_not_runtime": 0.21052631578947367
+        },
+        {
+          "corrected_groups": 12,
+          "share_of_groups_corrected": 0.3157894736842105,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.198551611509174e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00039278293843381107,
+          "requires_fp32_group_mac_fraction": 0.3157894736842105,
+          "estimated_additional_dot_work_not_runtime": 0.3157894736842105
+        },
+        {
+          "corrected_groups": 16,
+          "share_of_groups_corrected": 0.42105263157894735,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 7.053941226331517e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.000384072627639398,
+          "requires_fp32_group_mac_fraction": 0.42105263157894735,
+          "estimated_additional_dot_work_not_runtime": 0.42105263157894735
+        },
+        {
+          "corrected_groups": 24,
+          "share_of_groups_corrected": 0.631578947368421,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.97810246492736e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00037082104245200753,
+          "requires_fp32_group_mac_fraction": 0.631578947368421,
+          "estimated_additional_dot_work_not_runtime": 0.631578947368421
+        },
+        {
+          "corrected_groups": 38,
+          "share_of_groups_corrected": 1.0,
+          "max_absolute_error": 0.0101318359375,
+          "mean_absolute_error": 6.978233432164416e-05,
+          "mixed_tolerance_failures": 0,
+          "max_normalized_error": 0.00038518934161402285,
+          "requires_fp32_group_mac_fraction": 1.0,
+          "estimated_additional_dot_work_not_runtime": 1.0
+        }
+      ]
+    }
+  },
+  "note": "Oracle-free group selection uses only the ESP32 ACT vector. FP32 group correction values are hypothetical; on-device timing, memory use, and paired output verification are NOT measured. The replay does not modify any model weight, or use the PC to generate a token."
+}
